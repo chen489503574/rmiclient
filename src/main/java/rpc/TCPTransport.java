@@ -7,7 +7,7 @@ import java.net.Socket;
 
 /**
  * Created by Chenjf on 2018/11/30.
- * 这个类是专门对 Socket 的管理
+ * 这个类是专门对 Socket 的管理，Socket的创建及request的发送
  */
 public class TCPTransport {
 

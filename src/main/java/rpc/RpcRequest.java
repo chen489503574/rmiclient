@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 /**
  * Created by Chenjf on 2018/11/30.
  * 传输对象
- * 这是一个客户端提交的请求 类，需要远程传输，所以需要序列化
+ * 这是一个客户端提交的请求 类，里面封装了要传给服务端的参数，需要远程传输，所以需要序列化
  *
  */
 public class RpcRequest implements Serializable {
